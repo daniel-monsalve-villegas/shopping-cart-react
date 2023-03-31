@@ -1,10 +1,10 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
+import { FiltersProvider } from './context/filter';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+  <FiltersProvider>
     <App />
-  </React.StrictMode>,
-)
+  </FiltersProvider>
+);

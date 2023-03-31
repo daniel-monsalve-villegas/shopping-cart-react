@@ -1,12 +1,12 @@
 # test useContext, useReducer y useId
 
-1. Ecommerce 
+1. Ecommerce
 
 - [x] Muestra una lista de productos que vienen de un JSON
 - [x] Añade un filtro por categoría
 - [x] Añade un filtro por precio
 
-Haz uso de useContext para evitar pasos innecesarios
+- [x] Haz uso de useContext para evitar pasos innecesarios
 
 2. Shopping Cart
 
